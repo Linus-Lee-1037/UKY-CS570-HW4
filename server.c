@@ -228,11 +228,6 @@ int add_file(file_info * new_file) {
     return -1;
 }
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include "ssnfs.h"
-
 open_output *
 open_file_1_svc(open_input *argp, struct svc_req *rqstp)
 {
