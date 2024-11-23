@@ -16,4 +16,4 @@ To run the server program, simply run "./server".  If your rpc binder is not run
 
 To run the client program, simply run "./client hostname", where hostname is the name of the host running the server, e.g., "./client localhost" if the server is running on the same host.
 
-The client has equipped with all required functions: Open, Read, Write, List, Seek, Delete, Close. The sample code given in the requirement of Assignment 4 is integrated into the main() function and I add a call of List() to test in line 184 before the call of Close(fd2) so that you could test all the required functions to see if they work correctly.
+The client has equipped with all required functions: Open, Read, Write, List, Seek, Delete, Close. The sample code given in the requirement of Assignment 5 is integrated into the main() function and I add a call of List() to test in line 184 before the call of Close(fd2) so that you could test all the required functions to see if they work correctly.
