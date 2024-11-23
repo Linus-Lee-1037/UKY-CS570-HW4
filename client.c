@@ -181,6 +181,7 @@ int main(int argc, char *argv[]) {
     Seek(fd2, 40);
     Read(fd2, buffer, 20);
     printf("%s\n", buffer);
+    List();
     Close(fd2);
     Delete("File1");
 
